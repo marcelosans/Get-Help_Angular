@@ -1,0 +1,35 @@
+.form-control:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    border-color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #FF2D00;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: #FF2D00;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.fab:hover {
+    color: #FF2D00;
+    transition: color 0.3s ease-in-out;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    transition: transform 0.3s ease-in-out; 
+}
+
+#logo:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
+}
